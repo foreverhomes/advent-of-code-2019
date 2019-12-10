@@ -1,0 +1,29 @@
+{
+  "name": "advent-of-code-2019",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": "^10.16.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development nodemon index.js --exec babel-node"
+  },
+  "author": "Jeff DeButte",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/preset-env": "^7.7.4",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "morgan": "^1.9.1",
+    "rimraf": "^2.6.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/node": "^7.6.1",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/register": "^7.7.4",
+    "nodemon": "^2.0.1"
+  }
+}
